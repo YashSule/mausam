@@ -15,6 +15,7 @@ class WeatherBlocBloc extends Bloc<WeatherBlocEvent, WeatherBlocState> {
         WeatherFactory wf = WeatherFactory(API_KEY, language: Language.ENGLISH);
 
         Weather weather = await wf.currentWeatherByLocation(18.5204, 73.8567
+
             // event.position.latitude,
             // event.position.longitude,
             );

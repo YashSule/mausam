@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: 300,
                         width: 300,
                         decoration: const BoxDecoration(
-                            shape: BoxShape.circle, color: Color(0xFFFF004643)),
+                            shape: BoxShape.circle, color: Colors.yellow),
                       ),
                     ),
                     Align(
